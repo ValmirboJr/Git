@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+<style>
+    body{
+        background-color: gray;
+    }
+    main{
+        background-color: white;
+        padding: 20px;
+        border-radius:10px;
+        
+        min-width: 280px;
+        max-width: 800px;
+        margin: auto;
+    }
+    img{
+        width: 100%;
+    }
+</style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sint consequuntur minima fugit? Recusandae ipsa iusto voluptate laborum, fugit aliquam. Molestias earum alias eligendi necessitatibus harum at accusantium doloribus in.</p>
+        <picture>
+            <source media="(max-width:620px )" srcset="img/leao.jpg">
+            <img src="img/leao.jpg" alt="leao">
+        </picture>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptates nostrum repellendus officia obcaecati, commodi deleniti laboriosam minus iusto dolor dolore, nisi hic libero, labore quos explicabo fugit exercitationem voluptatum?</p>
+    </main>
+</body>
+</html>
